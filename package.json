@@ -1,0 +1,26 @@
+{
+  "name": "blockchain-example",
+  "version": "1.0.0",
+  "description": "Program that generates blockchain",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lakub-muravlov/blockchain-example.git"
+  },
+  "keywords": [
+    "blockchain",
+    "typescript"
+  ],
+  "author": "Andrii Muravlov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lakub-muravlov/blockchain-example/issues"
+  },
+  "homepage": "https://github.com/lakub-muravlov/blockchain-example#readme",
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  }
+}
