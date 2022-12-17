@@ -26,7 +26,8 @@ export interface IBlock
 
 export interface IBlockchain
 {
-
+    genesisBlock(): void;
+    addBlock(): void;
 }
 
 export function zeroHash()

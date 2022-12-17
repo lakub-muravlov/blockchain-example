@@ -1,8 +1,9 @@
+import { IBlockchain } from '../types';
 import { Block } from './block';
 
 const CHAIN_LIMIT_FOR_DEMO = 5;
 
-export class BlockChain
+export class BlockChain implements IBlockchain
 {
     private chain: Block[] = [];
 
@@ -18,12 +19,12 @@ export class BlockChain
         console.log(this.chain);
     }
 
-    private genesisBlock()
+    public genesisBlock()
     {
         this.chain.push(new Block(null, this.chain.length));
     }
 
-    private addBlock()
+    public addBlock()
     {
         this.chain.push(new Block(this.chain.slice(-1)[ 0 ].blockHeader.blockHash, this.chain.length));
     }
