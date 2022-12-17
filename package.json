@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/lakub-muravlov/blockchain-example#readme",
   "devDependencies": {
+    "@types/node": "^18.11.16",
     "typescript": "^4.9.4"
   }
 }
